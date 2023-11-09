@@ -1,0 +1,1 @@
+from .configmagic import *

@@ -21,7 +21,7 @@ class ConfigMagic(object):
         except NoSectionError:
             return None
     def setter_save(self, section, name, val):
-        while 1:
+        while 1: #wow very secure indeed come on blame me
             try:
                 self._config.set(section, name, val)
                 break
